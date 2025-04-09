@@ -1,0 +1,10 @@
+   60  kill
+   61  clear
+   62  b grind.c:68
+   63  r
+   64  c
+   65  n
+   66  q
+   67  set logging file gdb_logs.txt
+   68  set logging on
+   69  show commands

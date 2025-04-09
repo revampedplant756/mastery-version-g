@@ -1,0 +1,500 @@
+    3  make deb ug
+    4  make debug
+    5  gdb ./bin.ci
+    6  gdb ./bin/ci
+    7  make clean
+    8  make build
+    9  make all
+   10  cd ..
+   11  ls
+   12  code mm-lab-revampedplant756/
+   13  ls
+   14  make clean
+   15  make all
+   16  ./runner -h
+   17  ./runner -r short1.rep
+   18  ./runner -r traces/short1.rep
+   19  make clena
+   20  make clean
+   21  make all
+   22  cd ..
+   23  ls
+   24  code ci-lab-revampedplant756/
+   25  make clean
+   26  make all
+   27  ./bin/ci -i testcases/week2/add.s
+   28  make clean
+   29  make debug
+   30  gdb bin/ci
+   31  git status
+   32  git status
+   33  git add -A
+   34  git commit -m "awef"
+   35  git push
+   36  cd //
+   37  cd ..
+   38  cd..
+   39  ls
+   40  ls
+   41  code mm-lab-revampedplant756/
+   42  make clean
+   43  make all
+   44  make clean
+   45  make all
+   46  make clean
+   47  make all
+   48  ./runner -h
+   49  ls
+   50  touch .gdbinit
+   51  ls
+   52  https://github.com/CS429-SP2025/shared-repo-version-b-revampedplant756.git
+   53  git clone https://github.com/CS429-SP2025/shared-repo-version-b-revampedplant756.git
+   54  ls
+   55  code shared-repo-version-b-revampedplant756/
+   56  ls
+   57  code shared-repo-version-b-revampedplant756/
+   58  make clean
+   59  make all
+   60  make mini_ci
+   61  make clean
+   62  make debug
+   63  make clean
+   64  make mini_co
+   65  make mini_ci
+   66  mini_ci basic_add.s
+   67  make clean
+   68  make debug
+   69  gdb mini_ci
+   70  make clean
+   71  make debug
+   72  make clean
+   73  make debug
+   74  gdb mini_ci
+   75  gdb mini_ci
+   76  git status -A
+   77  git add -A
+   78  git commit -m "done"
+   79  git push
+   80  cd ..
+   81  ls
+   82  rm shared-repo-version-b-revampedplant756/
+   83  rm -rf shared-repo-version-b-revampedplant756/
+   84  ls
+   85  ls
+   86  rm -rf shared-repo-version-b-revampedplant756/
+   87  ls
+   88  git clone https://utexas.instructure.com/courses/1414930/assignments/7005766
+   89  git clone https://github.com/CS429-SP2025/se-lab-shawtvik.git
+   90  ls
+   91  code se-lab-shawtvik/
+   92  ls
+   93  cd ..
+   94  ls
+   95  ls -a
+   96  ls -a
+   97  ls
+   98  cd se-lab-shawtvik/
+   99  git status
+  100  cd ..
+  101  cd luser
+  102  cd lusr
+  103  ls -a
+  104  ls .
+  105  ls
+  106  cd .
+  107  ls
+  108  which gcc-14
+  109  git status
+  110  cd se-lab-shawtvik/
+  111  git status
+  112  git rm --cached .vscode/
+  113  git rm --cached .vscode/ -r
+  114  git status
+  115  git add -A
+  116  git commit -m "changed gitignore"
+  117  git push
+  118  ls
+  119  cd se-lab-shawtvik/
+  120  cd ..
+  121  code se-lab-shawtvik/
+  122  man grep
+  123  grep -r -e "cond_holds"
+  124  man grep
+  125  grep -rn -e "cond_holds" src/ include/
+  126  git status
+  127  git add -A
+  128  git commit -m "switch"
+  129  git push
+  130  ls
+  131  code se-lab-shawtvik/
+  132  code se-lab-shawtvik/
+  133  ls
+  134  code se-lab-shawtvik/
+  135  git pull
+  136  make week1
+  137  make week1
+  138  week1
+  139  make all
+  140  make week1
+  141  test-hw
+  142  ./bin/test-hw
+  143  make clean
+  144  make debug
+  145  make week1
+  146  gdb ./bin/test-hw
+  147  test-hw -v
+  148  test-hw -v 2
+  149  ./bin/test-hw -v 2
+  150  make week1
+  151  ./bin/test-hw -v 2
+  152  gdb bin/test-hw
+  153  make test-hw
+  154  make week1
+  155  ./bin/test-hw
+  156  ./bin/test-hw -v 2
+  157  gdb ./bin/test-hw
+  158  make week1
+  159  ./bin/test-hw
+  160  make week1
+  161  ./bin/test-hw
+  162  gdb ./bin/test-hw
+  163  git status
+  164  git add -A
+  165  git commit -m "regfile"
+  166  git push
+  167  gbd ./bin.test-hw
+  168  gdb ./bin.test-hw
+  169  gbd ./bin/test-hw
+  170  gdb ./bin/test-hw
+  171  make clean
+  172  make week1
+  173  gdb ./bin/test-hw
+  174  gdb ./bin/test-hw
+  175  git restore .
+  176  git restore .
+  177  git pull
+  178  make clean
+  179  make test-hw
+  180  make week1
+  181  ./bin/test-hw
+  182  git status
+  183  git add -A
+  184  git commit -m "fixed regfile bug"
+  185  git push
+  186  git pull
+  187  make clena
+  188  make clean
+  189  make week2
+  190  compiledb make
+  191  compiledb
+  192  pip
+  193  pip install compiledb
+  194  compiledb make
+  195  ~/.local/bin/compiledb make
+  196  cat compile_commands.json
+  197  make | ~/.local/bin/compiledb
+  198  git status
+  199  git add -A
+  200  git commit -m "finished extract_immval"
+  201  git push
+  202  make week1
+  203  gdb ./bin/test-hw
+  204  make debug
+  205  gdb runner
+  206  touch tester.txt
+  207  gdb runner
+  208  runner
+  209  make all
+  210  make clean
+  211  make debug
+  212  gdb ./bin/ci
+  213  touch tester.txt
+  214  gdb ./bin/ci
+  215  rm tester.txt
+  216  ls
+  217  ls -A
+  218  code .gdbinit
+  219  pwd
+  220  rm .gdbinit
+  221  ls -A
+  222  touch .gdbinit
+  223  ls -A
+  224  rm .gdbinit
+  225  ls -A
+  226  history
+  227  ls -A
+  228  touch shell_logs.txt
+  229  ls -A
+  230  shell_logs.txt
+  231  rm shell_logs.txt
+  232  ls -A
+  233  history > shell_logs.txt
+  234  code shell_logs.txt
+  235  rm shell_logs.txt
+  236  ls -A
+  237  show commands
+  238  code se-lab-shawtvik/
+  239  cdoe mm-lab-revampedplant756/
+  240  code mm-lab-revampedplant756/
+  241  ls -A
+  242  code ci-lab-revampedplant756/
+  243  touch .gdbinit
+  244  code .gdbinit
+  245  clone https://github.com/revampedplant756/mastery-version-a.git
+  246  git clone https://github.com/revampedplant756/mastery-version-a.git
+  247  ls
+  248  code mastery-version-a/
+  249  make tests
+  250  make
+  251  mini_ci
+  252  make check
+  253  make clean
+  254  make
+  255  mini_ci testcases/err_ops.s
+  256  mini_ci testcases/err_ops.s
+  257  make clean
+  258  make debug
+  259  gdb mini_c
+  260  gdb mini_ci
+  261  make check
+  262  make clean
+  263  make debuig
+  264  make debug
+  265  gdb mini_ci
+  266  mini_ci err_ops.s
+  267  make clean
+  268  make check
+  269  mini_ci err_ops.s
+  270  mini_ci_reference err_ops.s
+  271  mini_ci testcases/err_ops.s
+  272  gdb mini_ci
+  273  gdb miniq
+  274  make clean
+  275  make debug
+  276  gdb mini_ci
+  277  make clean
+  278  make check
+  279  make check
+  280  make clean
+  281  make debug
+  282  gdb mini_ci
+  283  make clean
+  284  make check
+  285  history > shell_logs.txt
+  286  touch gdb_logs.txt
+  287  make clean
+  288  make debug
+  289  gdb mini_ci
+  290  git status
+  291  git add -A
+  292  git commit -m "done"
+  293  git push
+  294  cd ..
+  295  man rm
+  296  ls
+  297  rm mastery-version-a/ -rf
+  298  ls
+  299  code se-lab-shawtvik/
+  300  git pull
+  301  git pull -f
+  302  git pull --force
+  303  git fetch -all
+  304  git fetch --all
+  305  git reset --hard origin/main
+  306  gcc --version
+  307  which gcc-14
+  308  which gcc
+  309  gcc --version
+  310  which gcc-9
+  311  git pull
+  312  git pull
+  313  git fetch --all
+  314  git reset --hard origin/main
+  315  make week2
+  316  test-se
+  317  ./bin/test-se
+  318  git status
+  319  git add -A
+  320  git commit -m "finished pipe- need to debug"
+  321  git push
+  322  git push
+  323  git pull
+  324  ls -A
+  325  rm .gdbinit
+  326  ls -A
+  327  touch .gdbinit
+  328  code .gdbinit
+  329  code .gdbinit
+  330  git clone https://github.com/revampedplant756/mastery-version-e.git
+  331  cd mastery-version-e/
+  332  cd ..
+  333  code mastery-version-e/
+  334  make tests
+  335  make check
+  336  make cleanm
+  337  make clean
+  338  make debug
+  339  gdb mini_ci
+  340  make clean
+  341  make check
+  342  history > shell_logs.txt
+  343  touch gdb_logs.txt
+  344  make clean
+  345  make debug
+  346  gdb mini_ci
+  347  git status
+  348  git add -A
+  349  git commit -m "done"
+  350  git push
+  351  cd ..
+  352  ls -A
+  353  rm -rf mastery-version-e/
+  354  ls -A
+  355  ls -A
+  356  rm .gdbinit
+  357  ls -A
+  358  git pull
+  359  git pull
+  360  git pull
+  361  code se-lab-shawtvik/
+  362  git pull
+  363  code se-lab-shawtvik/
+  364  git pull
+  365  make week2
+  366  ./bin/test-se -v 1
+  367  ./bin/se -v 1 -i testcases/basics/movz
+  368  ./bin/test-se -v 1
+  369  ./bin/se -v 1 -i testcases/basics/movz > out.txt
+  370  ./bin/test-se -v 1 
+  371  make clean
+  372  make debug
+  373  make week2
+  374  gdb ./bin/se
+  375  git pull
+  376  make week2
+  377  ./bin/test-se
+  378  ./bin/test-se -v 1
+  379  make week2
+  380  ./bin/test-se
+  381  ./bin/test-se -v 1
+  382  make clean
+  383  make week2
+  384  ./bin/test-se -v 1
+  385  make week2
+  386  ./bin/test-se -v 1
+  387  make clean
+  388  make week2
+  389  ./bin/test-se -v 1
+  390  git status
+  391  git add -A
+  392  git commit -m "2 points yayyyyy"
+  393  git push
+  394  ./bin/test-se -v 1
+  395  make clean
+  396  make week2
+  397  ./bin/test-se -v 1
+  398  git status
+  399  git add -A
+  400  git commit -m "3.7 points whoueueuue"
+  401  git push
+  402  git status
+  403  make clean
+  404  make week2
+  405  ./bin/test-se -v 1
+  406  make clean
+  407  make week2
+  408  ./bin/test-se -v 1
+  409  make clean
+  410  make weewk2
+  411  make week2
+  412  ./bin/test-se -v 1
+  413  make clean
+  414  make week2
+  415  ./bin/test-se -v 1
+  416  make clean
+  417  make week2
+  418  ./bin/test-se -v 1
+  419  make clean
+  420  make week2
+  421  ./bin/test-se -v 1
+  422  git status
+  423  git add -A
+  424  git commit -m "working rn"
+  425  git push
+  426  make week2
+  427  gdb ./bin/se
+  428  y
+  429  git push
+  430  git pull
+  431  make week2
+  432  gdb ./bin/se
+  433  ./bin/se -v 1 -i testcases/basics/movz
+  434  make week 2
+  435  make week2
+  436  ./bin/se -v 1 -i testcases/basics/movz
+  437  make clean
+  438  make week2
+  439  ./bin/se -v 1 -i testcases/basics/movz
+  440  git status
+  441  git add -A
+  442  git commit -m "immediate bugs"
+  443  git push
+  444  make week 2
+  445  make week2
+  446  ./bin/se -v 1 -i testcases/basics/movz
+  447  ./bin/se -v 3 -i testcases/basics/movz
+  448  ./bin/se -v 3 -i testcases/basics/movk
+  449  ./bin/se -v 3 -i testcases/alu/print_pipeminus/movk_lsl2
+  450  ./bin/se -v 3 -i testcases/alu/print_pipeminus/movk_lsl2
+  451  make clean
+  452  make week2
+  453  ./bin/se -v 3 -i testcases/basics/movk
+  454  make clean
+  455  make week2
+  456  ./bin/se -v 3 -i testcases/basics/movk
+  457  ./bin/se-ref-wk2 -v 1 -i testcases/basics/movz
+  458  git status
+  459  ./bin/se-ref-wk2 -v 1 -i testcases/basics/movk
+  460  ./bin/se-ref-wk2 -v 3 -i testcases/basics/movk
+  461  ./bin/se-ref-wk2 -v 3 -i testcases/basics/movk_lsl2
+  462  ./bin/se-ref-wk2 -v 3 -i testcases/alu/print_pipeminus/movk_lsl2
+  463  make clean
+  464  make week2
+  465  ./bin/se-ref-wk2 -v 3 -i testcases/basics/movk
+  466  git pull
+  467  make clean
+  468  make week2
+  469  ./bin/test-se -v 1
+  470  ls -A
+  471  touch .gdbinit
+  472  ls -A
+  473  code .gdbinit 
+  474  git clone https://github.com/revampedplant756/mastery-version-g.git
+  475  code mastery-version-g/
+  476  make clean
+  477  make check
+  478  gdb ./bin/a.out
+  479  make clean
+  480  make debug
+  481  gdb ./bin/a.out
+  482  make clean
+  483  make check
+  484  make clean
+  485  make debug
+  486  gdb ./bin/a.out
+  487  make clean
+  488  make debug
+  489  gdb ./bin/a.out
+  490  make clean
+  491  make check
+  492  make comp
+  493  make clean
+  494  make comp
+  495  make clean
+  496  make check
+  497  ./bin/a.out -t ./testcases/short3.rep
+  498  ref.out -t ./testcases/short3.rep
+  499  make clean
+  500  make comp
+  501  touch shell_logs.txt
+  502  history > shell_logs.txt
